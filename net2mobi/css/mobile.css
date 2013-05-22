@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.icone_18_blanc{
+	background-image: url(/images/mobile/icone_18_blanc.png);	
+}
+.icone_18_noir{
+	background-image: url(/images/mobile/icone_18_noir.png);	
+}
+.icone_36_blanc{
+	background-image: url(/images/mobile/icone_36_blanc.png);	
+}
+.icone_36_noir{
+	background-image: url(/images/mobile/icone_36_noir.png);	
+}

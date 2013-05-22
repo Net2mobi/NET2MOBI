@@ -1,0 +1,35 @@
+#div_login
+{
+	width: 320px;
+	position: fixed;
+	left:50%;
+	margin-left: -160px;
+	
+	background-color:#E4EFFF;
+	border:1px solid #9FC6FF;
+	padding:5px;
+	box-shadow:2px 2px 10px gray;
+	-moz-box-shadow:2px 2px 10px gray;
+	-webkit-box-shadow:2px 2px 10px gray;
+}
+
+#div_login h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-shadow:1px 1px 2px gray;
+}
+
+#div_login h5
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-shadow:1px 1px 2px gray;
+}
+
+#err_msg
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FF0000;
+}

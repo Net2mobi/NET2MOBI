@@ -1,0 +1,118 @@
+/* Generic */
+.mce_plug body {
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+scrollbar-3dlight-color:#F0F0EE;
+scrollbar-arrow-color:#676662;
+scrollbar-base-color:#F0F0EE;
+scrollbar-darkshadow-color:#DDDDDD;
+scrollbar-face-color:#E0E0DD;
+scrollbar-highlight-color:#F0F0EE;
+scrollbar-shadow-color:#F0F0EE;
+scrollbar-track-color:#F5F5F5;
+background:#F0F0EE;
+padding:0;
+margin:8px 8px 0 8px;
+}
+
+.mce_plug html {background:#F0F0EE;}
+.mce_plug td {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+.mce_plug textarea {resize:none;outline:none;}
+.mce_plug a:link, .mce_plug a:visited {color:black;}
+.mce_plug a:hover {color:#2B6FB6;}
+.mce_plug .nowrap {white-space: nowrap}
+
+/* Forms */
+.mce_plug fieldset {margin:0; padding:4px; border:1px solid #919B9C; font-family:Verdana, Arial; font-size:10px;}
+.mce_plug legend {color:#2B6FB6; font-weight:bold;}
+.mce_plug label.msg {display:none;}
+.mce_plug label.invalid {color:#EE0000; display:inline;}
+.mce_plug input.invalid {border:1px solid #EE0000;}
+.mce_plug input {background:#FFF; border:1px solid #CCC;}
+.mce_plug input, .mce_plug select, .mce_plug textarea {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+.mce_plug input, .mce_plug select, .mce_plug textarea {border:1px solid #808080;}
+.mce_plug input.radio {border:1px none #000000; background:transparent; vertical-align:middle;}
+.mce_plug input.checkbox {border:1px none #000000; background:transparent; vertical-align:middle;}
+.mce_plug .input_noborder {border:0;}
+
+/* Buttons */
+.mce_plug #insert, .mce_plug #cancel, .mce_plug input.button, .mce_plug .updateButton {
+border:0; margin:0; padding:0;
+font-weight:bold;
+width:94px; height:26px;
+background:url(img/buttons.png) 0 -26px;
+cursor:pointer;
+padding-bottom:2px;
+float:left;
+}
+
+.mce_plug #insert {background:url(img/buttons.png) 0 -52px}
+.mce_plug #cancel {background:url(img/buttons.png) 0 0; float:right}
+
+/* Browse */
+.mce_plug a.pickcolor, .mce_plug a.browse {text-decoration:none}
+.mce_plug a.browse span {display:block; width:20px; height:18px; background:url(../../img/icons.gif) -860px 0; border:1px solid #FFF; margin-left:1px;}
+.mce_plug .mceOldBoxModel a.browse span {width:22px; height:20px;}
+.mce_plug a.browse:hover span {border:1px solid #0A246A; background-color:#B2BBD0;}
+.mce_plug a.browse span.disabled {border:1px solid white; opacity:0.3; -ms-filter:'alpha(opacity=30)'; filter:alpha(opacity=30)}
+.mce_plug a.browse:hover span.disabled {border:1px solid white; background-color:transparent;}
+.mce_plug a.pickcolor span {display:block; width:20px; height:16px; background:url(../../img/icons.gif) -840px 0; margin-left:2px;}
+.mce_plug .mceOldBoxModel a.pickcolor span {width:21px; height:17px;}
+.mce_plug a.pickcolor:hover span {background-color:#B2BBD0;}
+.mce_plug a.pickcolor:hover span.disabled {}
+
+/* Charmap */
+.mce_plug table.charmap {border:1px solid #AAA; text-align:center}
+.mce_plug td.charmap, .mce_plug #charmap a {width:18px; height:18px; color:#000; border:1px solid #AAA; text-align:center; font-size:12px; vertical-align:middle; line-height: 18px;}
+.mce_plug #charmap a {display:block; color:#000; text-decoration:none; border:0}
+.mce_plug #charmap a:hover {background:#CCC;color:#2B6FB6}
+.mce_plug #charmap #codeN {font-size:10px; font-family:Arial,Helvetica,sans-serif; text-align:center}
+.mce_plug #charmap #codeV {font-size:40px; height:80px; border:1px solid #AAA; text-align:center}
+
+/* Source */
+.mce_plug .wordWrapCode {vertical-align:middle; border:1px none #000000; background:transparent;}
+.mce_plug .mceActionPanel {margin-top:5px;}
+
+/* Tabs classes */
+.mce_plug .tabs {width:100%; height:18px; line-height:normal; background:url(img/tabs.gif) repeat-x 0 -72px;}
+.mce_plug .tabs ul {margin:0; padding:0; list-style:none;}
+.mce_plug .tabs li {float:left; background:url(img/tabs.gif) no-repeat 0 0; margin:0 2px 0 0; padding:0 0 0 10px; line-height:17px; height:18px; display:block;}
+.mce_plug .tabs li.current {background:url(img/tabs.gif) no-repeat 0 -18px; margin-right:2px;}
+.mce_plug .tabs span {float:left; display:block; background:url(img/tabs.gif) no-repeat right -36px; padding:0px 10px 0 0;}
+.mce_plug .tabs .current span {background:url(img/tabs.gif) no-repeat right -54px;}
+.mce_plug .tabs a {text-decoration:none; font-family:Verdana, Arial; font-size:10px;}
+.mce_plug .tabs a:link, .mce_plug .tabs a:visited, .mce_plug .tabs a:hover {color:black;}
+
+/* Panels */
+.mce_plug .panel_wrapper div.panel {display:none;}
+.mce_plug .panel_wrapper div.current {display:block; width:100%; height:300px; overflow:visible;}
+.mce_plug .panel_wrapper {border:1px solid #919B9C; border-top:0px; padding:10px; padding-top:5px; clear:both; background:white;}
+
+/* Columns */
+.mce_plug .column {float:left;}
+.mce_plug .properties {width:100%;}
+.mce_plug .properties .column1 {}
+.mce_plug .properties .column2 {text-align:left;}
+
+/* Titles */
+.mce_plug h1, .mce_plug h2, .mce_plug h3, .mce_plug h4 {color:#2B6FB6; margin:0; padding:0; padding-top:5px;}
+.mce_plug h3 {font-size:14px;}
+.mce_plug .title {font-size:12px; font-weight:bold; color:#2B6FB6;}
+
+/* Dialog specific */
+.mce_plug #link .panel_wrapper, .mce_plug #link div.current {height:125px;}
+.mce_plug #image .panel_wrapper, .mce_plug #image div.current {height:200px;}
+.mce_plug #plugintable thead {font-weight:bold; background:#DDD;}
+.mce_plug #plugintable, .mce_plug #about #plugintable td {border:1px solid #919B9C;}
+.mce_plug #plugintable {width:96%; margin-top:10px;}
+.mce_plug #pluginscontainer {height:290px; overflow:auto;}
+.mce_plug #colorpicker #preview {display:inline-block; padding-left:40px; height:14px; border:1px solid black; margin-left:5px; margin-right: 5px}
+.mce_plug #colorpicker #previewblock {position: relative; top: -3px; padding-left:5px; padding-top: 0px; display:inline}
+.mce_plug #colorpicker #preview_wrapper { text-align:center; padding-top:4px; white-space: nowrap}
+.mce_plug #colorpicker #colors {float:left; border:1px solid gray; cursor:crosshair;}
+.mce_plug #colorpicker #light {border:1px solid gray; margin-left:5px; float:left;width:15px; height:150px; cursor:crosshair;}
+.mce_plug #colorpicker #light div {overflow:hidden;}
+.mce_plug #colorpicker .panel_wrapper div.current {height:175px;}
+.mce_plug #colorpicker #namedcolors {width:150px;}
+.mce_plug #colorpicker #namedcolors a {display:block; float:left; width:10px; height:10px; margin:1px 1px 0 0; overflow:hidden;}
+.mce_plug #colorpicker #colornamecontainer {margin-top:5px;}
+.mce_plug #colorpicker #picker_panel fieldset {margin:auto;width:325px;}

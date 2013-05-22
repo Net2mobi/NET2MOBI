@@ -1,0 +1,1 @@
+Please place you MCI Image manager folder here
