@@ -19,4 +19,5 @@ A demo preview of the net2mobi CMS back-end is avalaible at www.net2mobi.org
 we get the necessary Enterprise license of MCImageManager. If you have your own MCImageManager files, you can place the folder at http://yourdomain/NET2MOBI/tree/master/Net2mobi/script to enable the feature
 <br>
 <br>For further information contact cms@net2mobi.net
+<br>If you need ready-to-use alternatives, see us at http://mobiwebreviews.com
 
